@@ -1,0 +1,46 @@
+Excel Plugin
+
+https://docs.ifs.com/techdocs/Foundation1/050_development/025_operational_reporting/190_using_report_plugins/040_excel_plugin/default.htm
+
+Excel Plugin
+
+https://docs.ifs.com/techdocs/Foundation1/050_development/025_operational_reporting/190_using_report_plugins/140_simple_excel_plugin/default.htm
+
+Plugin Layouts
+
+https://docs.ifs.com/techdocs/Foundation1/050_development/025_operational_reporting/190_using_report_plugins/
+
+Managing Plugin Layout
+
+https://docs.ifs.com/techdocs/Foundation1/050_development/025_operational_reporting/190_using_report_plugins/005_manage_plugin/default.htm
+
+Regards,
+
+manufacturing module 
+https://www.novacura.com/ifs-modules/manufacturing/
+
+
+--=======================TO SELECT COLUMN NAME ALONG WIRTH ITS DATATYPE ====================================
+
+
+SELECT
+    column_name,
+    data_type
+FROM
+    all_tab_columns
+WHERE
+    table_name = 'STUDENTS';
+
+
+===================================WIT SIZE ---=====================================
+
+SELECT
+    column_name,
+    data_type||'('||
+    data_length||')'
+FROM
+    all_tab_columns
+WHERE
+    table_name = 'STUDENTS';
+
+
