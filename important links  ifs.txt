@@ -29,7 +29,7 @@ SELECT
 FROM
     all_tab_columns
 WHERE
-    table_name = 'STUDENTS';
+    table_name = 'STUDENTS';nhvhmgf
 
 
 ===================================WIT SIZE ---=====================================
